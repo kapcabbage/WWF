@@ -47,7 +47,7 @@ Do rozwiązania ćwiczeń używamy Visual Studio wraz z C#
   input.add("Operand2",<twój operand>);
   var result = invoker.Invoke(input);
 ```
-- Spróbuj dorobić do tego przepływu obsługę odejmowania, mnożenia oraz dzielenia. 
+- Spróbuj dorobić do tego przepływu obsługę odejmowania, mnożenia oraz dzielenia oraz przekształć workflow w taki sposób, aby parametry wejściowe były wpisywane z klawiatury.
 > Wskazówka: wykorzystaj do tego aktywność `FlowChart` oraz `FlowSwitch`. Pamiętaj, że nie można dzielić przez 0, aby tego uniknąć wykorzystaj aktywność `TryCatch` lub `FlowDecision`
 
 **3. Dodaj nowy projekt Workflow Service Application do solucji**
