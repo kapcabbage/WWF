@@ -32,7 +32,7 @@ Do rozwiązania ćwiczeń używamy Visual Studio wraz z C#
 - dodaj do niej nową sekwencje (Sequence)  
 - zdefiniuj zmienne (Variables) - `_operand1` oraz `_operand2`
 - zdefiniuj argumenty (Arguments) - `Operand1`, `Operand2` oraz `Result`
-- dodaj do sekwencji 3 nowe aktywności - `Assign`, a następnieoraz przypisz:
+- dodaj do sekwencji 3 nowe aktywności - `Assign`, a następnie przypisz:
 ```cs
   _operand1 = Operand1
   _operand2 = Operand2
