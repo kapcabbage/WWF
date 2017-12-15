@@ -48,9 +48,9 @@ Do rozwiązania ćwiczeń używamy Visual Studio wraz z C#
   var result = invoker.Invoke(input);
 ```
 - Spróbuj dorobić do tego przepływu obsługę odejmowania, mnożenia oraz dzielenia. 
-> Wskazówka: wykorzystaj do tego aktywność `Switch`
+> Wskazówka: wykorzystaj do tego aktywność `FlowChart` oraz `FlowSwitch`. Pamiętaj, że nie można dzielić przez 0, aby tego uniknąć wykorzystaj aktywność `TryCatch` lub `FlowDecision`
 
-**6. Dodaj nowy projekt Workflow Service Application do solucji**
+**3. Dodaj nowy projekt Workflow Service Application do solucji**
 - w utworzonym projekcie dodaj klase `Person` oraz `PersonList` 
 ```cs
  public class Peson{
